@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  padding-top: 268.97px;
+  padding-top: 253.97px;
 }
 @media (max-width: 991px) {
   body {
@@ -223,7 +223,7 @@ header {
 }
 nav {
   background-color: var(--main-color);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .fixed-nav nav {
   margin-bottom: 0;
@@ -284,7 +284,7 @@ html[dir="ltr"] nav li {
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 nav figure {
   margin: 0;
@@ -356,7 +356,7 @@ nav figure {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: var(--red-color);
+  background-color: var(--main-hover);
   color: #fff;
   font-size: 9px;
   font-weight: 400;
@@ -521,6 +521,9 @@ html[dir="rtl"] .open-search {
   color: var(--main-hover);
 }
 @media (max-width: 991px) {
+  .search-input{
+    color: var(--white-color);
+  }
   .search-section::after {
     border-bottom: 1px solid var(--main-color);
   }
@@ -939,7 +942,7 @@ html[dir="rtl"] .open-search {
   display: flex;
   align-items: center;
 }
-.product-section .add-to-fav {
+.add-to-fav {
   position: absolute;
   top: 5px;
   inset-inline-end: 5px;
@@ -955,13 +958,18 @@ html[dir="rtl"] .open-search {
   font-size: 24px;
   transition: all 0.3s ease-in-out;
 }
-.product-section .add-to-fav:hover {
+.add-to-fav:hover {
   background-color: var(--red-color);
   color: var(--white-color);
 }
 @media (max-width: 991px) {
   .product-section {
     margin-top: 20px;
+  }
+  .add-to-fav {
+    width: 30px;
+    height: 30px;
+    font-style: 20px;
   }
 }
 .product-slider .swiper-btn {
@@ -1050,7 +1058,8 @@ html[dir="rtl"] .open-search {
 }
 @media (max-width: 767px) {
   .add-to-btn {
-    font-size: 14px;
+    font-size: 13px;
+    height: 32px;
   }
   .product-content .price-box {
     display: flex;
@@ -1063,7 +1072,7 @@ html[dir="rtl"] .open-search {
     font-size: 20px;
   }
   .product .product-content {
-    padding: 20px 8px 20px;
+    padding: 10px 8px 10px;
   }
   .product-content .price-box .old-price {
     margin-inline-start: 0;
@@ -1747,7 +1756,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     padding-top: 45px;
   }
   .foot-header {
-    font-size: 16px;
+    font-size: 14px;
   }
   .news-letter .news-span {
     text-align: start;
@@ -1892,7 +1901,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   display: none;
 }
 .overlay-box {
-  background-color: var(--main-hover);
+  background-color: var(--main-color);
 }
 .container,
 .container-fluid,
