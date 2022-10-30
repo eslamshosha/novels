@@ -999,7 +999,7 @@ html[dir="rtl"] .open-search {
 }
 
 .product-slider .swiper-btn:hover {
-  background-color: var(--main-hover);
+  color: var(--main-hover);
 }
 .product-slider .swiper-btn i {
   z-index: 2;
